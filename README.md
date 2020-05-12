@@ -1,5 +1,3 @@
 # Vislice
 
-Janez Jansa
-Matija Pretnar
-Ivan Vidav
+Program za vislice
