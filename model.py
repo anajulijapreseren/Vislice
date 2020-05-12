@@ -7,6 +7,8 @@ NAPACNA_CRKA = '-'
 ZMAGA = 'W'
 PORAZ = 'X'
 
+import random
+
 class Igra:
     def __init__(self, geslo, crke=[]):
         self.geslo = geslo.lower()
@@ -42,7 +44,7 @@ class Igra:
                 pravilni_del += '_'
         return pravilni_del
 
-    def napravilni_ugibi(self):
+    def nepravilni_ugibi(self):
         return ' '.join(self.napacne_crke)
 
     def ugibaj(self, crka):
